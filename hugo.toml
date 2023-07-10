@@ -20,16 +20,15 @@ weight = 1
   [languages.en.taxonomies]
   category = "categories"
   tag = "tags"
-  series = "series"
 
 [[languages.en.menu.main]]
-name = "Archive"
-url = "archives"
+name = "About"
+url = "about/"
 weight = 5
 
 [[languages.en.menu.main]]
-name = "Search"
-url = "search/"
+name = "Categories"
+url = "categories/"
 weight = 10
 
 [[languages.en.menu.main]]
@@ -37,13 +36,13 @@ name = "Tags"
 url = "tags/"
 weight = 10
 
-[[languages.en.menu.main]]
-name = "WiKi"
-url = "https://github.com/adityatelange/hugo-PaperMod/wiki/"
+#[[languages.en.menu.main]]
+#name = "WiKi"
+#url = "https://github.com/adityatelange/hugo-PaperMod/wiki/"
 
-[[languages.en.menu.main]]
-name = "Discord"
-url = "https://discord.gg/ahpmTvhVmp"
+#[[languages.en.menu.main]]
+#name = "Discord"
+#url = "https://discord.gg/ahpmTvhVmp"
 
 #[languages.fr]
 #languageName = ":fr:"
@@ -119,9 +118,9 @@ home = [ "HTML", "RSS", "JSON" ]
 
 [params]
 env = "production"
-description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-author = "Theme PaperMod"
-defaultTheme = "auto"
+#description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+author = "woohyeok Moon"
+defaultTheme = "dark"
 ShowShareButtons = true
 ShowReadingTime = true
 displayFullLangName = true
@@ -129,13 +128,13 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 ShowRssButtonInSectionTermList = true
-ShowToc = true
+ShowToc = false
 images = [ "papermod-cover.png" ]
 label.icon = "img/logo.png"
 
   [params.profileMode]
   enabled = false
-  title = "PaperMod"
+  title = "Axiomize"
   imageUrl = "#"
   imageTitle = "my image"
 
@@ -148,27 +147,27 @@ label.icon = "img/logo.png"
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "PaperMod"
+  Title = "Axiomize"
   Content = """
   Welcome to my blog
   """
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/adityatelange/hugo-PaperMod"
+  url = "https://github.com/WooHyeok-Moon/"
 
-  [[params.socialIcons]]
-  name = "KoFi"
-  url = "https://ko-fi.com/adityatelange"
+  #[[params.socialIcons]]
+  #name = "KoFi"
+  #url = "https://ko-fi.com/adityatelange"
 
   [[params.socialIcons]]
   name = "Rss"
   url = "index.xml"
 
-  [params.editPost]
-  URL = "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-  Text = "Suggest Changes"
-  appendFilePath = true
+  #[params.editPost]
+  #URL = "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  #Text = "Suggest Changes"
+  #appendFilePath = true
 
   [params.assets]
   disableHLJS = true
