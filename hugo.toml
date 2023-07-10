@@ -171,6 +171,7 @@ images = [ "papermod-cover.png" ]
 
   [params.assets]
   disableHLJS = true
+  disableFingerprinting: true
 
   [params.gisgus]
   repo = "WooHyeok-Moon/blog-comments"
