@@ -1,5 +1,5 @@
 baseURL = "https://WooHyeok-Moon.github.io/"
-title = "PaperMod"
+title = "Axiomize"
 paginate = 5
 theme = "PaperMod"
 enableInlineShortcodes = true
