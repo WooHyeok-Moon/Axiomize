@@ -131,6 +131,7 @@ ShowCodeCopyButtons = true
 ShowRssButtonInSectionTermList = true
 ShowToc = true
 images = [ "papermod-cover.png" ]
+label.icon = "img/logo.png"
 
   [params.profileMode]
   enabled = false
@@ -172,6 +173,7 @@ images = [ "papermod-cover.png" ]
   [params.assets]
   disableHLJS = true
   disableFingerprinting = true
+  favicon = "/img/favicon.ico"
 
   [params.gisgus]
   repo = "WooHyeok-Moon/blog-comments"
