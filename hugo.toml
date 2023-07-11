@@ -129,6 +129,7 @@ ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 ShowRssButtonInSectionTermList = true
 ShowToc = false
+ShowComments = true
 images = [ "papermod-cover.png" ]
 label.icon = "img/logo.png"
 

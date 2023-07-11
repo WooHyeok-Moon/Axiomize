@@ -49,8 +49,10 @@
     {{- partial "share_icons.html" . -}}
     {{- end }} -->
   </footer>
+
+  {{- if (.Param "ShowComments") }}
   {{- if .Site.Params.giscus.repo }}
-  <div class="container_disqus">
+  <div class="container_disqus" style="margin: 30px 0px 0px 0px;">
       <script src="https://giscus.app/client.js"
           data-repo={{ .Site.Params.giscus.repo }}
           data-repo-id={{ .Site.Params.giscus.repoId }}
@@ -84,6 +86,7 @@
       })
   </script>
   
+  {{- end }}
   {{- end }}
 
   {{- if (.Param "comments") }}
