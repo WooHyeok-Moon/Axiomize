@@ -1,0 +1,255 @@
+#baseURL = "https://WooHyeok-Moon.github.io/"
+title = "Axiomize"
+paginate = 5
+theme = "PaperMod"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+defaultContentLanguage = 'kr'
+
+[minify]
+disableXML = true
+[languages]
+  [languages.kr]
+    contentDir = "content/kr"
+    languageName = "KR"
+    weight = 1
+
+  [languages.kr.taxonomies]
+    category = "categories"
+    tag = "tags"
+
+  [[languages.kr.menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 5
+
+  [[languages.kr.menu.main]]
+    name = "Categories"
+    url = "categories/"
+    weight = 10
+
+  [[languages.kr.menu.main]]
+    name = "Tags"
+    url = "tags/"
+    weight = 10
+
+  [languages.en]
+    contentDir = 'content/en'
+    languageName = 'EN'
+    weight = 2
+
+  [languages.en.taxonomies]
+    category = "categories"
+    tag = "tags"
+
+  [[languages.en.menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 5
+
+  [[languages.en.menu.main]]
+    name = "Categories"
+    url = "categories/"
+    weight = 10
+
+  [[languages.en.menu.main]]
+    name = "Tags"
+    url = "tags/"
+    weight = 10
+
+  
+
+#[[languages.en.menu.main]]
+#name = "About"
+#url = "about/"
+#weight = 5
+
+#[[languages.en.menu.main]]
+#name = "Categories"
+#url = "categories/"
+#weight = 10
+
+#[[languages.en.menu.main]]
+#name = "Tags"
+#url = "tags/"
+#weight = 10
+
+#[[languages.en.menu.main]]
+#name = "WiKi"
+#url = "https://github.com/adityatelange/hugo-PaperMod/wiki/"
+
+#[[languages.en.menu.main]]
+#name = "Discord"
+#url = "https://discord.gg/ahpmTvhVmp"
+
+#[languages.fr]
+#languageName = ":fr:"
+#languageAltTitle = "French"
+#weight = 2
+#title = "PaperModL2"
+
+#  [languages.fr.taxonomies]
+  #category = "FRcategories"
+  #tag = "FRtags"
+  #series = "FRseries"
+
+  #[languages.fr.profileMode]
+  #enabled = true
+  #title = "PaperMod"
+  #imageUrl = "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg"
+  #imageTitle = "ProfileMode image"
+  #subtitle = "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+
+    #[[languages.fr.profileMode.buttons]]
+    #name = "Blog"
+    #url = "posts"
+
+    #[[languages.fr.profileMode.buttons]]
+    #name = "Profile Mode"
+    #url = "https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode"
+
+#[[languages.fr.menu.main]]
+#name = "Archive"
+#url = "archives/"
+#weight = 5
+
+#[[languages.fr.menu.main]]
+#name = "FRTags"
+#url = "frtags"
+#weight = 10
+
+#[[languages.fr.menu.main]]
+#name = "FRCategories"
+#url = "frcategories"
+#weight = 10
+
+#[[languages.fr.menu.main]]
+#name = "FRSeries"
+#url = "frseries"
+#weight = 10
+
+#[[languages.fr.menu.main]]
+#name = "NullLink"
+#url = "#"
+
+#[languages.fa]
+#languagedirection = "rtl"
+#weight = 3
+#title = "PaperMod RTL"
+
+  #[languages.fa.homeInfoParams]
+  #Title = "Hi there 👋"
+  #Content = "Welcome to RTL layout"
+
+  #[languages.fa.taxonomies]
+  #category = "FAcategories"
+  #tag = "FAtags"
+  #series = "FAseries"
+
+#[[languages.fa.menu.main]]
+#name = "FATags"
+#url = "fatags"
+#weight = 10
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+#description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+author = "woohyeok Moon"
+defaultTheme = "dark"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowToc = false
+ShowComments = true
+images = [ "papermod-cover.png" ]
+label.icon = "img/logo.png"
+
+  [params.profileMode]
+  enabled = false
+  title = "Axiomize"
+  imageUrl = "#"
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Archives"
+    url = "archives"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Axiomize"
+  Content = """
+  Welcome to my blog
+  """
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/WooHyeok-Moon/"
+
+  #[[params.socialIcons]]
+  #name = "KoFi"
+  #url = "https://ko-fi.com/adityatelange"
+
+  [[params.socialIcons]]
+  name = "Rss"
+  url = "index.xml"
+
+  #[params.editPost]
+  #URL = "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  #Text = "Suggest Changes"
+  #appendFilePath = true
+
+  [params.assets]
+  disableHLJS = true
+  disableFingerprinting = true
+  favicon = "/img/favicon.ico"
+
+  [params.giscus]
+  repo = "WooHyeok-Moon/blog-comments"
+  repoId = "R_kgDOJrdphg"
+  category = "Comments"
+  categoryId = "DIC_kwDOJrdphs4CXA2h"
+  mapping = "pathname"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
