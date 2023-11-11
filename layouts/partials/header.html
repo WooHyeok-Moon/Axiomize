@@ -57,15 +57,15 @@
                         {{- if site.Params.label.iconHeight }}
                             {{- $img = $img.Resize (printf "x%d" site.Params.label.iconHeight) }}
                         {{ else }}
-                            {{- $img = $img.Resize "x30" }}
+                            {{- $img = $img.Resize "x120" }}
                         {{- end }}
                     {{- end }}
                     <img src="{{ $img.Permalink }}" alt="" aria-label="logo"
-                        height="{{- site.Params.label.iconHeight | default "30" -}}">
+                        style="margin-top: 9px;"
+                        height="{{- site.Params.label.iconHeight | default "45" -}}">
                 {{- else }}
                 <img src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
-                    style="margin-top: 9px;"
-                    height="{{- site.Params.label.iconHeight | default "45" -}}">
+                    height="{{- site.Params.label.iconHeight | default "30" -}}">
                 {{- end -}}
                 {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
                     {{ site.Params.label.iconSVG | safeHTML }}
