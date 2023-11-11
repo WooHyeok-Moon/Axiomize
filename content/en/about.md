@@ -10,9 +10,9 @@ My name is Woohyeok Moon. I'm a bachelor's student at Jeonbuk National Universit
 
 ## Awards
 
-한국지능정보사회진흥원(NIA) - 데이터 크리에이터 캠프 해커톤 최우수상 (2021. 09. 04 ~ 2021. 11. 20.)  
-전북대학교 - 데이터분석 경진대회 최우수상 (2022 01/17 ~ 01/20)  
-교육부 - Wemeet 프로젝트 팀 단위 교육부장관상, 개인 단위 최우수상 (2022. 05. 26 ~ 2023. 02. 24)  
+National Information Society Agency(NIA) - Data Creater Camp Hackathon 2nd award (2021. 09. 04 ~ 2021. 11. 20.)  
+Jeonbuk Natioanl University - Data Analysis Competition 1st award (2022 01/17 ~ 01/20)  
+Department of Education - Wemeet Project Ministerial Awards for team, 1st award for individual (2022. 05. 26 ~ 2023. 02. 24)  
 
 ---
 
