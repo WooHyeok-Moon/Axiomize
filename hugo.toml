@@ -1,4 +1,4 @@
-#baseURL = "https://WooHyeok-Moon.github.io/"
+baseURL = "https://WooHyeok-Moon.github.io/"
 title = "Axiomize"
 paginate = 5
 theme = "PaperMod"
