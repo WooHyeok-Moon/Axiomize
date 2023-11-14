@@ -4,7 +4,7 @@ showcomments: false
 
 ## About me
 
-My name is Woohyeok Moon. I'm a bachelor's student at Jeonbuk National University, majoring in statistics and minoring in computer science. I'm interested in data mining, data visualization, machine and deep learning especially image segmentaion. Nowadays I'm looking for a something worth putting my life on the line for.
+I'm a bachelor's student at Jeonbuk National University, majoring in statistics and minoring in computer science. I'm interested in data mining, data visualization, machine and deep learning especially image segmentaion. Nowadays I'm looking for a something worth putting my life on the line for.
 
 ---
 
