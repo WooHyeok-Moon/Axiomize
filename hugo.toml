@@ -24,19 +24,24 @@ disableXML = true
     tag = "tags"
 
   [[languages.kr.menu.main]]
-    name = "About"
+    name = "소개"
     url = "about/"
     weight = 5
 
   [[languages.kr.menu.main]]
-    name = "Categories"
-    url = "categories/"
-    weight = 10
+    name = "검색"
+    url = "search/"
+    weight = 6
 
   [[languages.kr.menu.main]]
-    name = "Tags"
+    name = "카테고리"
+    url = "categories/"
+    weight = 7
+
+  [[languages.kr.menu.main]]
+    name = "태그"
     url = "tags/"
-    weight = 10
+    weight = 8
 
   [languages.en]
     contentDir = 'content/en'
@@ -53,14 +58,19 @@ disableXML = true
     weight = 5
 
   [[languages.en.menu.main]]
+    name = "Search"
+    url = "search/"
+    weight = 6
+
+  [[languages.en.menu.main]]
     name = "Categories"
     url = "categories/"
-    weight = 10
+    weight = 7
 
   [[languages.en.menu.main]]
     name = "Tags"
     url = "tags/"
-    weight = 10
+    weight = 8
 
   
 
@@ -171,10 +181,19 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 ShowRssButtonInSectionTermList = true
-ShowToc = false
+ShowToc = true
 ShowComments = true
 images = [ "papermod-cover.png" ]
 label.icon = "img/logo.png"
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
 
   [params.profileMode]
   enabled = false

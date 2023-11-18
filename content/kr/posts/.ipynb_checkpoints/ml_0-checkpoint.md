@@ -4,6 +4,7 @@ date: 2023-07-11
 title: 머신러닝 목차
 categories: Artificial Intelligence
 tags: [Machine Learning]
+showtoc: false
 weight: 10
 ---
 
@@ -43,7 +44,3 @@ weight: 10
 
 ### 3.1 하이퍼파라미터 튜닝과 모델 선택
 
-
-```python
-
-```
