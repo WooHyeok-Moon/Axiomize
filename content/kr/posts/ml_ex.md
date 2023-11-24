@@ -53,7 +53,33 @@ weight: 10
 
 - 추론 시 batch normalization은 테스트 데이터 하나에 대해 답을 내야 하므로 평균과 분산을 낼 수 없으므로 training 시 mini-batch들의 평균과 분산을 대신 사용한다.
 
+## CNN(Convolution Neural Network)
 
-```python
+- 기존의 DNN은 1차원 형태의 데이터를 사용하므로 2차원 형태의 이미지가 입력값으로 들어왔을 때에는 1차원으로 Flatten시켜줘야 한다. 이 과정에서 정보 손실이 일어난다. 또한 추상화 과정 없이 바로 연산을 진행하는데, 이로 인해 효율성이 저하된다.
 
-```
+- CNN은 이미지를 이미지 그대로 받아 공간적/지역적 정보를 유지할 수 있다.
+
+- 이미지는 이미지 전체보다는 특징적인 부분과 그 주변 픽셀들의 연관성에 집중해야 한다. CNN은 이를 위해 Convolution 연산을 사용한다.
+
+- 하나의 Convolution layer에는 Convolution과 Activation이 포함되어 있다. Activation Function으로는 RELU를 사용한다.
+
+- 이후 생성된 여러 개의 결과값에 Max Pooling을 적용하여 크기를 줄여준다.
+
+- 다시 Convolution, Activation, Pooling을 진행한다.
+
+- 나온 Feature data들을 Flatten하여 1차원 형태의 데이터로 만든다.
+
+- FC(Fully connected) layer를 통과시켜 Softmax를 적용해주면 최종 output이 나온다.
+
+## Activation Function
+
+- 활성화 함수는 선형 분류기를 비선형 분류기로 만들어주는 역할을 한다.
+
+- 선형 함수를 사용하면 층을 깊게 쌓는 의미가 없다.
+
+- 활성화 함수 없이 feedforward를 진행하게 된다면 아래와 같이 진행된다.
+$$ f(x) = w*x\\
+f(f(x)) = w*w*x = w^2x\\
+f(f(f(x))) = w*w*w*x = w^3x$$
+
+- 이는 $y = ax$인 선형 함수에서 $a = w^3$인 선형 함수가 되었을 뿐이며 이는 weight가 $w^3$인 한 개 층으로도 네트워크를 구성할 수 있음을 의미한다. -> Deep Network의 의미가 없다.

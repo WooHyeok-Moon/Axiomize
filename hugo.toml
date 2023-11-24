@@ -185,6 +185,7 @@ ShowToc = true
 ShowComments = true
 images = [ "papermod-cover.png" ]
 label.icon = "img/logo.png"
+math = true
 
   [params.fuseOpts]
   isCaseSensitive = false
