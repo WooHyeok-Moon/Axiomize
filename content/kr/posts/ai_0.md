@@ -77,9 +77,14 @@ weight: 10
 
 - 선형 함수를 사용하면 층을 깊게 쌓는 의미가 없다.
 
-- 활성화 함수 없이 feedforward를 진행하게 된다면 아래와 같이 진행된다.
-$$ f(x) = w*x\\
-f(f(x)) = w*w*x = w^2x\\
-f(f(f(x))) = w*w*w*x = w^3x$$
+- 활성화 함수 없이 feedforwarding을 진행하게 된다면 아래와 같이 진행된다.
+$$
+\begin{align}
+   f(x) &= w \times x\\\
+   f(f(x)) &= w \times w \times x &= w^2x\\\
+   f(f(f(x))) &= w \times w \times w \times x &= w^3x\\\
+   &\dots
+\end{align}
+$$
 
 - 이는 $y = ax$인 선형 함수에서 $a = w^3$인 선형 함수가 되었을 뿐이며 이는 weight가 $w^3$인 한 개 층으로도 네트워크를 구성할 수 있음을 의미한다. -> Deep Network의 의미가 없다.
