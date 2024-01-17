@@ -12,9 +12,9 @@ weight: 10
 
   The amount of information and data that are becoming available to us is growing exponentially. As the amount of available data grows, so is our need to understand it.
 
-> If you torture the data long enough. it will confess to anything.  
+**> If you torture the data long enough. it will confess to anything.**
 
-\- Ronald Coase
+**\- Ronald Coase**
 
 ## Why statistical literacy is essential in data sceince
 
