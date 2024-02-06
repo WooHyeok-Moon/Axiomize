@@ -3,9 +3,23 @@ author: "Woohyeok Moon"
 date: 2023-07-11
 title: AI대학원 면접 준비
 categories: Artificial Intelligence
-tags: [Machine Learning, Deep Learning]
+tags: [Statistics, Linear Algebra, Machine Learning, Deep Learning]
 showtoc: false
 weight: 10
+---
+
+# Statistics
+
+---
+
+## 1. Central Limit Theorem
+
+- 표본의 개수 $n$이 충분히 클 때 표본 분포가 정규분포 $N(\mu, \sigma^2)$에 근사하는 것
+
+- $E(\bar{x}) \rightarrow \mu$
+
+# Deep $\cdot$ Machine Learning
+
 ---
 
 ## 1. L1, L2 Regulerization
@@ -77,7 +91,7 @@ weight: 10
 
 - 선형 함수를 사용하면 층을 깊게 쌓는 의미가 없다.
 
-- 활성화 함수 없이 feedforwarding을 진행하게 된다면 아래와 같이 진행된다.
+- 활성화 함수 없이 feedforward를 진행하게 된다면 아래와 같이 진행된다.
 $$
 \begin{align}
    f(x) &= w \times x\\\
@@ -88,3 +102,15 @@ $$
 $$
 
 - 이는 $y = ax$인 선형 함수에서 $a = w^3$인 선형 함수가 되었을 뿐이며 이는 weight가 $w^3$인 한 개 층으로도 네트워크를 구성할 수 있음을 의미한다. -> Deep Network의 의미가 없다.
+
+# Others
+
+---
+
+## 1. 이 분야를 선택한 이유
+
+## 2. 학위 중 목표
+
+## 3. 졸업 후 계획
+
+## 4. 통계학을 전공해서 이 분야를 연구할 때의 장점
