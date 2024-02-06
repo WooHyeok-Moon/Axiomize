@@ -84,8 +84,8 @@ $$
 \begin{align}
 P(A \cup B \cup C) =& P((A \cup B) \cup C) \\\
 =& P(A \cup B) + P(C) - P((A \cup B) \cap C) \\\
-=& P(A) + P(B) - P(A \cap B) + P(C) \\\ &- P((A \cap C) \cup (B \cap C)) \\\
-=& P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) \\\ &- P(B \cap C) + P(A \cap B \cap C) \\\
+=& P(A) + P(B) - P(A \cap B) + P(C) \\\ \tag*{} &- P((A \cap C) \cup (B \cap C)) \\\
+=& P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) \\\ \tag*{} &- P(B \cap C) + P(A \cap B \cap C) \\\
 \end{align}
 $$
 이므로 다음이 성립한다.
