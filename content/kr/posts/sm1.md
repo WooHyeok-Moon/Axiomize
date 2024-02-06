@@ -102,7 +102,6 @@ $$
 ```python
 import numpy as np
 from matplotlib import pyplot as plt
-%matplotlib inline
 
 fig, ax = plt.subplots(1, 2, figsize=(8,2))
 
@@ -138,11 +137,11 @@ ax[1].tick_params(left = False, right = False , labelleft = False ,
                 labelbottom = False, bottom = False)
 plt.show()
 ```
-
+{{< /collapse >}}
 
     
 ![png](output_13_0.png)
     
 
 
-{{< /collapse >}}
+
