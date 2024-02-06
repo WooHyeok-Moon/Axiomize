@@ -1,6 +1,6 @@
 ---
 author: "Woohyeok Moon"
-date: 2024-02-06
+date: 2024-02-05
 title: 표본공간과 사건
 categories: 수리통계학
 tags: [표본공간, 벤 다이어그램, 드 모르간 법칙]
