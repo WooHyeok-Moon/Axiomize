@@ -39,7 +39,7 @@ continous한 시간 간격에 따른 데이터. 시간, 일 또는 월 별 데�
 
 공간 데이터 특성:
 - 위치(Location)는 좌표(위도 및 경도) 또는 기타 지리적 척도를 통해 표현된다.
-- Attribute(설명변수) 정보는 [^2]LULC(Land Use Land Cover)나 수질을 통해 표현한다. (보통 map에 color로 구분)
+- Attribute(설명변수) 정보는 LULC(Land Use Land Cover)나 수질을 통해 표현한다. (보통 map에 color로 구분)
 - 날짜의 경과에 따른 해수면의 변화
 - 공간 관계성: 각 지역 간 서로 어떤 관계에 있는지를 나타내는 정보. e.g. 인접(adjacency): 서로 접해있는가, 포함(containment): A 지역이 B 지역을 포함하고 있는가
 
