@@ -39,7 +39,7 @@ continous한 시간 간격에 따른 데이터. 시간, 일 또는 월 별 데�
 
 공간 데이터 특성:
 - 위치(Location)는 좌표(위도 및 경도) 또는 기타 지리적 척도를 통해 표현된다.
-- Attribute(설명변수) 정보는 LULC(Land Use Land Cover)나 수질을 통해 표현한다. (보통 map에 color로 구분)
+- Attribute(설명변수) 정보는 [^2]LULC(Land Use Land Cover)나 수질을 통해 표현한다. (보통 map에 color로 구분)
 - 날짜의 경과에 따른 해수면의 변화
 - 공간 관계성: 각 지역 간 서로 어떤 관계에 있는지를 나타내는 정보. e.g. 인접(adjacency): 서로 접해있는가, 포함(containment): A 지역이 B 지역을 포함하고 있는가
 
@@ -58,6 +58,9 @@ continous한 시간 간격에 따른 데이터. 시간, 일 또는 월 별 데�
 - Temporal Changes: 특정 지역에서 시간이 지남에 따라 어떤 현상이 발생하는지 파악 가능하다. (focus on location)
 - Complex Data Structure: 시간과 공간이 모두 포함된 고차원 데이터이기 때문에 정교한 분석 기법이 필요하다.
 
+#### `footnote`
+
 [^1]: 사회적 생산 기반. 또는, 경제 활동의 기반을 형성하는 기초적인 시설. 댐·도로·항만·발전소·통신 시설 등의 산업 기반 및 학교·병원·공원 등의 사회 복지·환경 시설이 이에 해당함. 인프라.  
 [^2]: 어떤 종류의 토지가 어떻게 쓰이는지를 나타내는 지도 = LULC map  
 [^3]: GPM(Global Precipitation Measurement Mission): 인공위성을 통해 전 세계의 강수량을 측정하는 mission
+

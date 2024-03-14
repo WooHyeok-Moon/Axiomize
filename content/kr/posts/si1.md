@@ -58,8 +58,9 @@ continous한 시간 간격에 따른 데이터. 시간, 일 또는 월 별 데�
 - Temporal Changes: 특정 지역에서 시간이 지남에 따라 어떤 현상이 발생하는지 파악 가능하다. (focus on location)
 - Complex Data Structure: 시간과 공간이 모두 포함된 고차원 데이터이기 때문에 정교한 분석 기법이 필요하다.
 
-`footnote`
+#### `footnote`
 
 [^1]: 사회적 생산 기반. 또는, 경제 활동의 기반을 형성하는 기초적인 시설. 댐·도로·항만·발전소·통신 시설 등의 산업 기반 및 학교·병원·공원 등의 사회 복지·환경 시설이 이에 해당함. 인프라.  
 [^2]: 어떤 종류의 토지가 어떻게 쓰이는지를 나타내는 지도 = LULC map  
 [^3]: GPM(Global Precipitation Measurement Mission): 인공위성을 통해 전 세계의 강수량을 측정하는 mission
+
