@@ -2,7 +2,7 @@
 author: "Woohyeok Moon"
 date: 2024-03-14
 title: 환경 데이터 종류
-categories: 환경 빅데이터 분석 및 통계 추론
+categories: 통계 추론 및 환경 빅데이터 분석
 tags: [time-series data, spatial data, spatio-temporal data]
 showtoc: false
 weight: 10

@@ -2,13 +2,15 @@
 author: "Woohyeok Moon"
 date: 2024-03-14
 title: 환경 데이터 종류
-categories: 환경 빅데이터 분석 및 통계 추론
+categories: 통계 추론 및 환경 빅데이터 분석
 tags: [time-series data, spatial data, spatio-temporal data]
 showtoc: false
 weight: 10
 ---
 
 # Basics of Environmental Data
+
+---
 
 ## 1) 환경 데이터 특징
 
@@ -63,4 +65,3 @@ continous한 시간 간격에 따른 데이터. 시간, 일 또는 월 별 데�
 [^1]: 사회적 생산 기반. 또는, 경제 활동의 기반을 형성하는 기초적인 시설. 댐·도로·항만·발전소·통신 시설 등의 산업 기반 및 학교·병원·공원 등의 사회 복지·환경 시설이 이에 해당함. 인프라.  
 [^2]: 어떤 종류의 토지가 어떻게 쓰이는지를 나타내는 지도 = LULC map  
 [^3]: GPM(Global Precipitation Measurement Mission): 인공위성을 통해 전 세계의 강수량을 측정하는 mission
-
