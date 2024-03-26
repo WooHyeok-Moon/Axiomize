@@ -1,9 +1,9 @@
 ---
 author: "Woohyeok Moon"
 date: 2024-03-26
-title: Random process contents
-categories: Random process
-tags: [Random process]
+title: 랜덤 프로세스 내용
+categories: 랜덤 프로세스
+tags: [랜덤 프로세스]
 showtoc: false
 weight: 10
 ---
@@ -26,6 +26,7 @@ weight: 10
 
 - Bernulli trials, Binomial, and Poisson law
 - De Moivre-Laplace Theorem
+- Probability Review Summary
 
 ## Lecture 4
 - Definitions of Random Variable
