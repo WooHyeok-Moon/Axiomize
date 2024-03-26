@@ -4,3 +4,5 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/WooHyeok-Moon/WooHyeok-Moon.github.io
+	update = rebase
+	branch = main
