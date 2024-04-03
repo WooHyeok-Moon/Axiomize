@@ -70,6 +70,13 @@ weight: 10
 - Bivariate Normal Random Variables
 - Multivariate Normal Random Variables
 
-## Lecture 9 (pending)
+## Lecture 9
+- Estimation Revisit
+- Estimation of Gaussian Random Variables
+- Variance of the Linear Combination
+- Transformation to Uncorrelated Random Variables
 
-## Lecture 10 (pending)
+## Lecture 10
+- Inequalities Review
+- Weak Law of Large Numbers(LLN)
+- Central limit Theorem(CLT)
