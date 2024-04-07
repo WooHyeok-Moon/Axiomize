@@ -80,3 +80,13 @@ weight: 10
 - Inequalities Review
 - Weak Law of Large Numbers(LLN)
 - Central limit Theorem(CLT)
+
+## Lecture 11
+- Central limit Theorem - Proof
+- Central limit Theorem - Approximation
+- Strong Law of Large Numbers(LLN)
+- Strong LLN - Proof
+- One sided Chebyshev Inequality
+- Jensen's Inequality
+- L'Hopitals Rule
+- Convex and Concave Function
