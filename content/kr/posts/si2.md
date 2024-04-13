@@ -59,7 +59,7 @@ $$
 median = P_{0.50} =
 \begin{cases}
 X(\frac{n+1}{2}) &\text{when $n$ is odd}\\\\
-\frac{1}{2}\Big(X(\frac{n}{2})+X(\frac{n}{2})+X(\frac{n}{2}+1)\Big) &\text{when $n$ is even}
+\frac{1}{2}\Big(X(\frac{n}{2})+X(\frac{n}{2}+1)\Big) &\text{when $n$ is even}
 \end{cases}
 $$
 
