@@ -94,7 +94,7 @@ print(f'median of B: {np.median(B)}')
 
 - 정의: 데이터에서 가장 자주 나온 값을 의미하며, [^1]nominal data에서 사용할 수 있는 유일한 대표값이다.
 - land cover type과 같이 일반적인 인간의 행동이나 선호도를 이해하는 데에 유용하다.
-- 하나의 dataset에 최빈값이 하나 존재하면 unimodal, 둘 존재하면 bimodal, 이보다 여러 개 존재하면 multimodal이라고 한다.
+- 하나의 dataset에 봉우리가 하나 존재하면 unimodal, 둘 존재하면 bimodal, 이보다 여러 개 존재하면 multimodal이라고 한다.
 
 ![modal](https://github.com/WooHyeok-Moon/Axiomize/assets/76620002/e2d5245b-fa84-456e-9344-bbfff479548c)
 
